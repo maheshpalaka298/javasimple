@@ -1,0 +1,37 @@
+//To find simple interest//
+import java.util.*;
+class  SimpleInterest
+{
+	public static void main(String[] args) 
+	{
+		int P,T;
+		float R,I;
+
+		Scanner obj=new Scanner(System.in);
+
+		System.out.println("Enter Principle,Time and Rate of interest");
+		P=obj.nextInt();
+		T=obj.nextInt();
+		R=obj.nextFloat();
+
+		I=(P*T*R)/100;
+
+		System.out.println("Principle Amount : "+P);
+		System.out.println("Time : "+T);
+		System.out.println("Rate of Interest : "+R);
+
+		System.out.println("Simple Interest : "+I);
+	}
+}
+
+#Output
+
+Enter Principle,Time and Rate of interest
+5000000
+10
+4.5
+Principle Amount : 5000000
+Time : 10
+Rate of Interest : 4.5
+Simple Interest : 2250000.0
+Press any key to continue . . .
